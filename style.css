@@ -36,7 +36,7 @@ header>h1 {
 main {
     background-color: var(--mainback-green);
     padding: 20px;
-    width: 1003px;
+    max-width: 1003px;
     margin: auto;
 }
 
@@ -44,6 +44,9 @@ div#recipe_img {
     background-color: var(--imgback-blue);
     padding: 10px; 
     text-align: center;
+}
+img {
+    width: 49%;
 }
 
 div#text {
@@ -72,4 +75,3 @@ li a {
     text-decoration: none;
     color: var(--strong-brown);
 }
-
